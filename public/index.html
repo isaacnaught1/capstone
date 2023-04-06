@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>CAPSTONE_PROJECT</title>
+</head>
+<body>
+    
+
+    
+    <div id="content">
+    
+        <h1>I've been expecting you</h1>
+    
+        <h2>Stare into my crystal ball!</h2>
+        <form id="ask-questions">
+            <input
+                type="text"
+                id="questions-box"
+                placeholder="Ask me anything...."/>
+                <br>
+            <button id="submit-questions">I need to know!</button>
+        </form>
+        <div id="crystalBall">
+            <p id="answer"></p>
+        </div>
+        <button id="save-button" >Save Answer?</button>
+        <button id="seeAllBtn">See all fortunes</button>
+
+    
+    </div>
+
+    <main>
+        <section id="saved" >
+            <h2>Your Answers</h2>
+            <ul id="saved-list"></ul>
+        </section>
+    </main>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

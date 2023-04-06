@@ -1,0 +1,81 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+header{
+    text-align: center;
+    
+    
+    font-size: 80px;
+}
+
+body{
+    background-color: grey
+    
+}
+
+#content {
+    background-color: rgb(39, 91, 100);
+    width: 650px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+#crystalBall {
+    width: 300px;
+    height: 300px;
+    background: rgb(217, 232, 236);
+    color: black;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 100%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+}
+
+#answer {
+    font-size: 20px;
+}
+
+main{
+    text-align: center;
+}
+
+#saved {
+    margin: auto;
+    margin-top: 50px;
+    background-color: black;
+    width: 500px;
+    align-items: center;
+    border-style: groove;
+    color: white;
+    
+}
+
+#saved-list {
+    margin-top: 50px;
+    
+    text-align: left;
+    
+}
+
+#submit-questions {
+    margin-top: 20px;
+    height: 30px;
+}
+
+#save-button {
+    margin-bottom: 30px;
+    height: 30px;
+}
+
+#seeAllBtn {
+    margin-bottom: 30px;
+    height: 30px; 
+}
